@@ -6,8 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D4C61F6E2F26B1A5005E5ADB /* WorkoutBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C61F6D2F26B18C005E5ADB /* WorkoutBlock.swift */; };
+		D4C61F702F26B1C5005E5ADB /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C61F6F2F26B1BB005E5ADB /* DataLoader.swift */; };
+		D4C61F832F26C0E8005E5ADB /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C61F822F26C0D2005E5ADB /* Theme.swift */; };
+		D4C61F852F26C10A005E5ADB /* MagicBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C61F842F26C0FD005E5ADB /* MagicBackground.swift */; };
+		D4C61F872F26C12A005E5ADB /* GlassCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C61F862F26C11A005E5ADB /* GlassCard.swift */; };
+		D4C61F892F26C562005E5ADB /* Mascot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C61F882F26C55A005E5ADB /* Mascot.swift */; };
+		D4F30E632F32760D00E5FC8D /* WorkoutMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F30E622F3275FA00E5FC8D /* WorkoutMode.swift */; };
+		D4F30ED82F335DFD00E5FC8D /* blocks.json in Resources */ = {isa = PBXBuildFile; fileRef = D4F30ED72F335DFD00E5FC8D /* blocks.json */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		D4C61F4B2F26AF1F005E5ADB /* WarriorWorkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarriorWorkout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4C61F6D2F26B18C005E5ADB /* WorkoutBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutBlock.swift; sourceTree = "<group>"; };
+		D4C61F6F2F26B1BB005E5ADB /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		D4C61F822F26C0D2005E5ADB /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		D4C61F842F26C0FD005E5ADB /* MagicBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicBackground.swift; sourceTree = "<group>"; };
+		D4C61F862F26C11A005E5ADB /* GlassCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassCard.swift; sourceTree = "<group>"; };
+		D4C61F882F26C55A005E5ADB /* Mascot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mascot.swift; sourceTree = "<group>"; };
+		D4F30E622F3275FA00E5FC8D /* WorkoutMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutMode.swift; sourceTree = "<group>"; };
+		D4F30ED72F335DFD00E5FC8D /* blocks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blocks.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +51,14 @@
 		D4C61F422F26AF1F005E5ADB = {
 			isa = PBXGroup;
 			children = (
+				D4F30E622F3275FA00E5FC8D /* WorkoutMode.swift */,
+				D4F30ED72F335DFD00E5FC8D /* blocks.json */,
+				D4C61F882F26C55A005E5ADB /* Mascot.swift */,
+				D4C61F862F26C11A005E5ADB /* GlassCard.swift */,
+				D4C61F842F26C0FD005E5ADB /* MagicBackground.swift */,
+				D4C61F822F26C0D2005E5ADB /* Theme.swift */,
+				D4C61F6F2F26B1BB005E5ADB /* DataLoader.swift */,
+				D4C61F6D2F26B18C005E5ADB /* WorkoutBlock.swift */,
 				D4C61F4D2F26AF1F005E5ADB /* WarriorWorkout */,
 				D4C61F4C2F26AF1F005E5ADB /* Products */,
 			);
@@ -109,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4F30ED82F335DFD00E5FC8D /* blocks.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +147,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4F30E632F32760D00E5FC8D /* WorkoutMode.swift in Sources */,
+				D4C61F702F26B1C5005E5ADB /* DataLoader.swift in Sources */,
+				D4C61F852F26C10A005E5ADB /* MagicBackground.swift in Sources */,
+				D4C61F872F26C12A005E5ADB /* GlassCard.swift in Sources */,
+				D4C61F832F26C0E8005E5ADB /* Theme.swift in Sources */,
+				D4C61F892F26C562005E5ADB /* Mascot.swift in Sources */,
+				D4C61F6E2F26B1A5005E5ADB /* WorkoutBlock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
