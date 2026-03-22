@@ -11,7 +11,7 @@ import SwiftUI
 struct WarriorWorkoutApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+         ContentView()
         }
     }
 }
